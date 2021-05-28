@@ -27,7 +27,7 @@ export default function Home({ designers }) {
   return (
     <div className="container">
       <Head>
-        <title>Brazilians Who Design | About</title>
+        <title>Who Makes Esports | About</title>
         <link rel="icon" href="/favicon.ico" />
         <MetaTags />
       </Head>
@@ -38,7 +38,7 @@ export default function Home({ designers }) {
 
       <Title
         className="title m0 p0"
-        text="Brazilians*who&nbsp;design&nbsp;is&nbsp;a"
+        text="Who*makes&nbsp;esports&nbsp;is&nbsp;a"
         noAnimation
       />
 
@@ -51,12 +51,12 @@ export default function Home({ designers }) {
         <p className="f1 extend">
           <motion.span variants={item}>place to showcase</motion.span>{" "}
           <motion.span variants={item}>the work of talented</motion.span>{" "}
-          <motion.span variants={item}>Brazilian designers to</motion.span>{" "}
+          <motion.span variants={item}>esports people to</motion.span>{" "}
           <motion.span variants={item}>the world. The goal</motion.span>{" "}
           <motion.span variants={item}>is to inspire new</motion.span>{" "}
-          <motion.span variants={item}>designers to diversify</motion.span>{" "}
+          <motion.span variants={item}>people to diversify</motion.span>{" "}
           <motion.span variants={item}>
-            their references, experienced designers
+            their references, experienced
           </motion.span>{" "}
           <motion.span variants={item}>
             to diversity their network, and companies to diversify their teams.
@@ -68,8 +68,8 @@ export default function Home({ designers }) {
         <div className="col-left">
           <h3>How can I nominate someone?</h3>
           <p>
-            If you know a Brazilian designer whose work or voice is valuable to
-            the design industry, please{" "}
+            If you know someone whose work or voice is valuable to
+            the esports industry, please{" "}
             <Link href="/nominate">
               <a className="link">fill out this form</a>
             </Link>{" "}
@@ -77,17 +77,17 @@ export default function Home({ designers }) {
             them. You can choose to link to their portfolio, to their Linkedin,
             or to other social profiles — any link that you feel best represents
             how that person is making a difference in the industry. We decided
-            not to collect or display the designer’s photo because we wanted the
+            not to collect or display theirs photo because we wanted the
             repository to be less about what someone looks like and more about
             how they’re making an impact in the industry.
           </p>
 
-          <h3>Why are featuring artists as well?</h3>
+          <h3>Why are featuring these people as well?</h3>
           <p>
-            We wanted to showcase not only contemporary Brazilian design, but
+            We wanted to showcase not only workers at esports, but
             also leverage all the visibility that this project is getting to
-            celebrate the history of design in our country. Every time you
-            reload the website there’s a new featured Brazilian designer you can
+            celebrate the community in our country. Every time you
+            reload the website there’s a new featured worker you can
             learn more about.
           </p>
 
@@ -151,11 +151,11 @@ export default function Home({ designers }) {
 
           <h3>How did you build this?</h3>
           <p>
-            Brazilians Who Design is{" "}
+            Who Makes Esports{" "}
             <a
               className="link"
               target="_blank"
-              href="https://github.com/zehfernandes/brazilianswhodesign"
+              href="https://github.com/pedromadethis"
             >
               open source
             </a>{" "}
@@ -192,26 +192,14 @@ export default function Home({ designers }) {
           </ul>
           <br />
           <p>
-            Thanks to Caio Braga, Rafael Frota, Karina Sirqueira, Al Lucca,
-            Bruno Oyama, Fabio Sasso, Daniel Furtado, Rodrigo Muniz, Lucas
-            Falcão, for the help of gathering the initial list of designers.
+            Thanks to Fabio Massa for translation, for the help of gathering the initial list of designers.
           </p>
 
           <h3>Who’s behind this?</h3>
           <ul>
             <li>
-              <a className="link" href="https://twitter.com/zehf">
-                Zeh Fernandes
-              </a>
-            </li>
-            <li>
-              <a className="link" href="http://twitter.com/fabriciot">
-                Fabricio Teixeira
-              </a>
-            </li>
-            <li>
-              <a className="link" href="http://uxdesign.cc/">
-                UX Collective
+              <a className="link" href="https://twitter.com/pedromadethis">
+                Pedro Andrade
               </a>
             </li>
           </ul>
@@ -219,16 +207,13 @@ export default function Home({ designers }) {
         <div className="col-right">
           <h3>How can I remove my name?</h3>
           <p>
-            If you’ve been added to the directory and would like to opt-out or
-            make an edit to your profile, please send us a message at
-            hello@uxdesign.cc.
+          If you’ve been added to the directory and would like to opt-out or make an edit to your profile, please send us a message at hello@whomakesesports.com  
           </p>
           <h3>Why is my nomination taking so long to show?</h3>
           <p>
             We update this website once a week to include new names. To ensure a
-            healthy gender balance on this website, some nominations might take
-            longer to appear. In the meantime, try nominating a designer who
-            identifies as a woman or non-binary.
+            balance on this website, some nominations might take
+            longer to appear. In the meantime, try nominating someone new to industry.
           </p>
         </div>
 
