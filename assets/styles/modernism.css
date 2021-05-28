@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  text-rendering: optimizeLegibility;
 }
 *,
 *:before,
@@ -9,17 +10,20 @@ html {
 
 body {
   font-family: "Helvetica Now Display", "Helvetica Neue", "Helvetica";
-  background: #000;
+  background: #101010;
   color: #fff;
   font-weight: 500;
   margin: 0;
   padding: 0;
+  text-shadow: rgba(0,0,0,.01) 0 0 1px;
 }
 
 .container {
-  width: 95vw;
-  margin: 3rem auto;
+  width: 90vw;
+  margin: 5rem auto;
   position: relative;
+  background-color: #1b1b1b;
+  padding: 2rem 5rem;
 }
 
 a {
@@ -31,11 +35,10 @@ a {
 
 h1,
 .f1 {
-  font-size: 5.625rem;
+  font-size: 7.625rem;
   letter-spacing: -0.03em;
   line-height: 100%;
   font-weight: 500;
-  font-feature-settings: "ss08" on, "ss02" on, "ss01" on, "salt" on, "cpsp" on;
 }
 
 /* Utils 
@@ -170,9 +173,9 @@ a.link:after {
 }
 .sticky tr {
   position: fixed;
-  width: 95vw;
-  background: #000;
-  padding: 1.5rem 0 1rem 0;
+  width: 85vw;
+  background: #1b1b1b;
+  padding: 1.5rem 5rem 1rem 0;
   display: table;
   top: -4rem;
   transform: translateY(4rem);
@@ -202,14 +205,26 @@ a.link:after {
 
 /* Responsive
  ----------------------------- */
-@media (max-width: 480px) {
+ @media (max-width: 480px) {
   :root {
-    font-size: 12px;
+    font-size: 11px;
   }
-
+  .container {
+    width: 100vw;
+    margin: auto;
+    position: relative;
+    background: #1b1b1b;
+    padding: 0rem 2rem;
+  }
+  .tableContent {
+    padding-top: 8vh;
+  }
+  .title{
+    padding-top: 17vh;
+  }
   h1,
   .f1 {
-    font-size: 4rem;
+    font-size: 5rem;
     letter-spacing: -0.02em;
   }
 

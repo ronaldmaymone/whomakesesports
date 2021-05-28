@@ -1,7 +1,7 @@
 import drive from "drive-db";
 
 export default async (req, res) => {
-  const db = await drive("1zI9zkP9Rj-CajXPoB7uCrV7d8eG3U7J9mr_DKMz2Nvw");
+  const db = await drive("1G5x_J0V7D-iZYno0nIbaSR0OcuGVNr1igs63ua3hJIc");
   let sanitizeResult = db.filter(
     (item) => item.name != "" && item.show == "Yes"
   );
@@ -9,4 +9,4 @@ export default async (req, res) => {
   res.statusCode = 200;
   res.setHeader("Content-Type", "application/json");
   res.end(JSON.stringify(sanitizeResult));
-}; 
+};
