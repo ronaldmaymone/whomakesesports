@@ -9,7 +9,7 @@ export default function Nav(props) {
         </Link>
       </li>
       <li>
-        <Link href="/nominate">
+        <Link href="https://forms.gle/CZr9ajkgFHevBFub8">
           <a>Nominate</a>
         </Link>
       </li>
