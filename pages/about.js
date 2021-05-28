@@ -61,7 +61,7 @@ export default function Home({ designers }) {
           <h3>How can I nominate someone?</h3>
           <p>
           If you know a Esports professional whose work or voice is valuable to the esports industry, please{" "}
-            <Link href="/nominate">
+            <Link href="https://forms.gle/CZr9ajkgFHevBFub8">
               <a className="link">fill out this form</a>
             </Link>{" "}
             with their information and a few words about why you're nominating them. You can choose to link their portfolio, their Linkedin, or to other social profiles — any link that you feel best represents how that person is making a difference in the esports. We decided not to collect or display the professional’s photo because we wanted the repository to be less about what someone looks like and more about how they’re making an impact in esports.
@@ -196,11 +196,7 @@ export default function Home({ designers }) {
               className="link"
               target="_blank"
               href="https://www.patreon.com/whomakesesports"
-            >donations </a> at Patreon and help keep the <a
-            className="link"
-            target="_blank"
-            href="https://www.typeform.com/pricing"
-          >typeform</a> working. For the rest, all remaining costs (Domain, Server and Maintenance) will be borne by me.
+            >donations </a> at Patreon and help keep the working. For the rest, all remaining costs (Domain, Server and Maintenance) will be borne by me.
           </p>
         </div>
 

@@ -19,7 +19,7 @@ body {
 }
 
 .container {
-  width: 100vw;
+  width: 100%;
   position: relative;
   background-color: #000000;
   padding: 2rem 5rem;
@@ -172,8 +172,8 @@ a.link:after {
 }
 .sticky tr {
   position: fixed;
-  width: 85vw;
-  background: #1b1b1b;
+  width: 100vw;
+  background: #1000000;
   padding: 1.5rem 5rem 1rem 0;
   display: table;
   top: -4rem;

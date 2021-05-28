@@ -174,13 +174,13 @@ function Content({ designers, handleOpenFilter, className, onClick }) {
     return () => {
       window.removeEventListener("scroll", scrollCallBack);
     };
-  }, []);
+  }, []); 
 
   return (
     <div className={className} onClick={onClick}>
       <Nav />
 
-      <Title className="title m0 p0" text="Brazilians*who&nbsp;design" />
+      <Title className="title m0 p0" text="Who*Makes&nbsp;Esports" />
 
       <motion.div
         initial={{ opacity: 0 }}
